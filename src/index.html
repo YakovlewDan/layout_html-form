@@ -16,7 +16,7 @@
       <fieldset class = "fieldset">
         <legend>Personal information</legend>
 
-        <label class = "input">
+        <label class = "label">
           Surname:
           <input
             type = "text"
@@ -26,7 +26,7 @@
           >
         </label>
 
-        <label class = "input">
+        <label class = "label">
           Name:
           <input
             type = "text"
@@ -36,7 +36,7 @@
           >
         </label>
 
-        <label class = "input">
+        <label class = "label">
           How old are You?
           <input
             type = "number"
@@ -48,7 +48,7 @@
           >
         </label>
 
-        <label class = "input">
+        <label class = "label">
           Full date of birth:
           <input
             type = "date"
@@ -57,7 +57,7 @@
           >
         </label>
 
-        <label class = "input">
+        <label class = "label">
           I accept the term of the agreement
           <input
             type = "checkbox"
@@ -70,7 +70,7 @@
       <fieldset class = "fieldset">
         <legend>Registration</legend>
 
-        <label class = "input">
+        <label class = "label">
           E-mail:
           <input
             type = "email"
@@ -80,7 +80,7 @@
           >
         </label>
 
-        <label class = "input">
+        <label class = "label">
           Password:
           <input
             type = "password"
@@ -96,24 +96,30 @@
       <fieldset class = "fieldset">
         <legend>An interesting fact about you!</legend>
 
-        <label class = "input">
+        <div class = "label">
           Do you love cats?
-          <input
-            type = "radio"
-            name = "cats"
-            value = "yes"
-          >
-          Yes
+          <label>
+            <input
+              type = "radio"
+              name = "cats"
+              value = "yes"
+            >
+            Yes
+          </label>
 
-          <input
-            type = "radio"
-            name = "cats"
-            value = "no"
-          >
-          No
-        </label>
+          <label>
+            <input
+              type = "radio"
+              name = "cats"
+              value = "no"
+            >
+            No
+          </label>
 
-        <label class = "input">
+          </label>
+        </div>
+
+        <label class = "label">
           What is your favorite color?
           <input
             type = "color"
@@ -121,7 +127,7 @@
           >
         </label>
 
-        <label class = "input">
+        <label class = "label">
           What time do you go to bed?
           <input
             type = "time"
@@ -129,7 +135,7 @@
           >
         </label>
 
-        <label class = "input">
+        <label class = "label">
           What are your favorite brand of cars?
           <select name = "carBrand" multiple>
             <option value = "BMW">BMW</option>
@@ -138,7 +144,7 @@
           </select>
         </label>
 
-        <label class = "input">
+        <label class = "label">
           How do you rate our work?
           <input
             type = "range"
@@ -154,12 +160,12 @@
       <fieldset class = "fieldset">
         <legend>Additional info:</legend>
 
-        <label class = "input">
+        <label class = "label">
           Comments:
           <textarea name = "comments"></textarea>
         </label>
 
-        <label class = "input">
+        <label class = "label">
           Would you recommend us?
           <select name = "recommend">
             <option value = "yes">yes</option>
